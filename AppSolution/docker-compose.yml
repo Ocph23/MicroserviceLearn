@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  serviceone:
+    image: serviceone
+    build:
+      context: .
+      dockerfile: ServiceOne\Dockerfile
